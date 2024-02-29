@@ -5,13 +5,9 @@ from menu import menu
 
 
 def main():
-    # pack_animals_list = []
-    # home_animals_list = []
-    # animal = create_animals("Borya", "1", "30-11-1998", ['sit', 'mew!'])
-    # filter_animals(animal, pack_animals_list, home_animals_list)
-    # # print(pack_animals_list[0].name)
-    # print(new_command(animal, ['new_command']))
-    menu()
+    count: int = 0
+    menu(count)
+
 
 if __name__ == '__main__':
     main()

@@ -21,9 +21,9 @@ def filter_animals(animal, home_animals_list: list, pack_animals_list: list):
 
 
 def get_commands(animal):
-    return f"Commands list: {animal.commands}"
+    return f"Список команд {animal.name} - {animal.commands}"
 
 
 def new_command(animal, new_command: list):
     animal.commands = animal.commands + new_command
-    return f"New commands list: {animal.commands}"
+    return f"Список команд, включая новые: {animal.commands}"
