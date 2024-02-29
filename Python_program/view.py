@@ -1,4 +1,4 @@
-from animal import Animal
+from Python_program.animal import Animal
 
 
 def create_animals(name: str, animal_class: str, birthday: str, commands: list):

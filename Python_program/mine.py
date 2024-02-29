@@ -1,7 +1,5 @@
 # реестр домашних животных
-from view import create_animals,filter_animals,\
-    get_commands, new_command
-from menu import menu
+from Python_program.menu import menu
 
 
 def main():
